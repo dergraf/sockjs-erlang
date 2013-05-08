@@ -1,3 +1,8 @@
+%% ***** BEGIN LICENSE BLOCK *****
+%% Copyright (c) 2011-2012 VMware, Inc.
+%%
+%% For the license see COPYING.
+%% ***** END LICENSE BLOCK *****
 -compile({parse_transform,sockjs_pmod_pt}).
 -module(sockjs_multiplex_channel, [Conn, Topic]).
 
